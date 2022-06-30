@@ -7,3 +7,6 @@ Depending on the organization of the elements, data structures are classified in
 
 * Linear data structures: Elements are accesed in a sequential order but it is not compulsory to store all elements sequentially. examples: linked lists, stacks, queues.
 * Non-linear data structures: Elements of this data structure are stored/accessed in a non-linear order. Examples: Trees and graphs.
+
+
+![DSA Post Designs (Community)](https://user-images.githubusercontent.com/75694208/176628394-d343eb72-b398-400a-8395-500299eb1eed.png)
