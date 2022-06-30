@@ -10,3 +10,12 @@ Depending on the organization of the elements, data structures are classified in
 
 
 ![DSA Post Designs (Community)](https://user-images.githubusercontent.com/75694208/176628394-d343eb72-b398-400a-8395-500299eb1eed.png)
+
+<hr/>
+
+### Algorithm
+An algorithm is the step-by-step unambiguous instructions to solve a given problem.
+
+* In traditional strudy of algorithms, there are two main criteria for judging the merits of algorithms:
+  * Correctness (does the algorithm give solution to the problem in a finite number of steps?)
+  * Efficiency (how much resources (in terms of memory and time) does it take to execute).
