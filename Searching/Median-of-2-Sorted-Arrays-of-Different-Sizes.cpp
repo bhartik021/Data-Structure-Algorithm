@@ -14,7 +14,7 @@ class Solution{
     double MedianOfArrays(vector<int>& array1, vector<int>& array2)
     {
         // Your code goes here
-        //Using Binary Search
+        //Optimal Approach Using Binary Search
         
         if(array2.size() < array1.size()) return MedianOfArrays(array2, array1);
         
