@@ -10,14 +10,14 @@ class Solution{
         // Your code goes here
         
         
-        // Brute force approcah
+        // Brute force approcah using linear search
         //for(int i = 0; i < n; i++) {
         //    if(a[i] == 1) return i;
         //}
         //return -1;
         
         
-        // optimal approach using binary search
+        // Optimal approach using binary search
         
         int s = 0;
         int e = n - 1;
