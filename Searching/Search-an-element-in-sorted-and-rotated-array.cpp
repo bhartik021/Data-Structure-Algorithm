@@ -39,14 +39,14 @@ int main(){
 int Search(vector<int> vec, int K) {
     //code here
     
-    //Naive Solution(linear Search)
+    //Naive Solution using linear search
     //for(int i = 0; i < vec.size(); i++) {
     //    if(vec[i] == K)
     //    return i;
     //}
     //return -1;
     
-    //Efficient Approach(Binary Search)
+    //Efficient Approach Using Binary Search
     int n = vec.size();
     int l = 0, h = n - 1;
     while(l <= h) {
