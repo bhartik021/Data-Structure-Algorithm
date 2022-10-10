@@ -11,7 +11,11 @@ class Solution{
   public:
     long long int floorSqrt(long long int x) 
     {
-        // Your code goes here  
+        // Your code goes here
+	//using pre build function
+	//return sqrt(x);
+	
+	//using binary search
         long long int s = 1, e = x/2;
         
         long long ans = 1;
