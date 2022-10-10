@@ -10,6 +10,7 @@ class Solution
     pair<long,long> indexes(vector<long long> v, long long x)
     {
         // code here
+	//using lower bound and upper bound
         int n = v.size();
         int first = lower_bound(v.begin(), v.end(), x) - v.begin();
         int last = upper_bound(v.begin(), v.end(), x) - v.begin();
