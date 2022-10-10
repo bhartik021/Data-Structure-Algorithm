@@ -15,13 +15,13 @@ class Solution{
     
        // Your code here
        
-       // Naive Solution (Using linear Search)
+       // Naive Solution Using linear Search
        //for(int i = 0; i < N; i++) {
        //       if(arr[i] == K) return 1;
        //}
        //return -1;
        
-       // Optimal Approach (Using Binary Search)
+       // Optimal Approach using Binary Search
        long long int s = 0;
        long long int e = N - 1;
        
