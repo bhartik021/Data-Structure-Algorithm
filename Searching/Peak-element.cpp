@@ -15,7 +15,7 @@ class Solution
     int peakElement(int arr[], int n)
     {
        // Your code here
-       // Brute force(linear search)
+       // Brute force approcah using linear search
        //if(n == 1) return 0;
        
        //if(arr[0] >= arr[1]) return 0;
@@ -27,7 +27,7 @@ class Solution
        //    return i;
        //}
        
-       // Optimal Approach(Binary Search)
+       // Optimal Approach Using Binary Search
        int s = 0, e = n - 1;
        
        while(s < e) {
