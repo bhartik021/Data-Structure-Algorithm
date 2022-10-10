@@ -6,6 +6,7 @@ using namespace std;
 vector<int> find(int arr[], int n , int x )
 {
     // code here
+    //using linear search
     vector<int> ans;
     for(int i = 0; i < n ; i++) {
         if(arr[i] ==  x) 
