@@ -13,6 +13,7 @@ class Solution{
     {
         
         // Your code here
+        //using linear search
         for(int i = 0; i < N; i++) {
             if(arr[i] == X) return i;
         }
