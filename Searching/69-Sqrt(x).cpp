@@ -1,6 +1,11 @@
 class Solution {
 public:
     int mySqrt(int x) {
+
+        //using pre build function
+        //return sqrt(x);
+
+        //using binary search
         long long s = 1, e = INT_MAX;
         
         long long  ans = 0;
