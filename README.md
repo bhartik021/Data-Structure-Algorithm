@@ -1,7 +1,7 @@
 # Data-Structure-Algorithm
 
 ### Data Structure
-Data structure is a particular way of storing and organizing data in a computer so that it can be used efficiently. A data structure is a special format for organizing and storing data. General data strucutre types include arrays, files, linked list, stacks, queues, trees, graphs, and so om.
+Data structure is a particular way of storing and organizing data in a computer so that it can be used efficiently. A data structure is a special format for organizing and storing data. General data strucutre types include arrays, files, linked list, stacks, queues, trees, graphs, and so on.
 
 Depending on the organization of the elements, data structures are classified into types:
 
