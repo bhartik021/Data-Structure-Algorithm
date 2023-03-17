@@ -1,4 +1,3 @@
-#include <bits/stdc++.h>
 int removeDuplicates(vector<int> &arr, int n) {
 	// Write your code here.
 	int i = 0;
