@@ -20,13 +20,18 @@
 Node *reverseLinkedListRec(Node *head)
 {
     //Write your code here
-	vector<int>data;
-	for(Node* current = head; current != NULL; current = current->next) {
-		data.push_back(current->data);
+	if(head ==  NULL || head->next == NULL) {
+		return head;
 	}
-	for(Node* current = head; current != NULL; current = current->next) {
-		current->data = data.back();
-		data.pop_back();
+
+	Node* smallAns = reverseLinkedListRec(head->next);
+	Node* temp = smallAns;
+
+	while(temp->next != NULL) {
+		temp = temp->next;
 	}
-	return head;
+
+	temp->next = head;
+	head->next = NULL;
+	return smallAns;
 }
